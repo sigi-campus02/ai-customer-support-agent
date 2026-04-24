@@ -13,8 +13,8 @@ from datetime import datetime
 mcp = FastMCP("Support Tools")
 
 # Load data once on startup
-customers = pd.read_excel("data/customers.xlsx")
-products = pd.read_excel("data/products.xlsx")
+customers = pd.read_excel("example_data/customers.xlsx")
+products = pd.read_excel("example_data/products.xlsx")
 
 
 @mcp.tool()

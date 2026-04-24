@@ -27,7 +27,7 @@ ai-customer-support-agent/
 ├── mcp_server.py         ← MCP tool server
 ├── .env                  ← OPENAI_API_KEY=sk-...
 ├── escalations.csv       ← auto-generated on first run
-└── data/
+└── example_data/
     ├── customers.xlsx
     └── products.xlsx
 ```
